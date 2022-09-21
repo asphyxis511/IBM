@@ -1,5 +1,5 @@
 # set base image (host OS)
-FROM registry.access.redhat.com/ubi8/python-38
+FROM clrv0000236035.ic.ing.net:443/ubi8/python-38
 
 # install dependencies
 COPY requirements.txt .
